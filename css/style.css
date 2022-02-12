@@ -549,6 +549,12 @@ body {
     position: absolute;
     top: 0;
     right: 0;
+    opacity: 0;
+    transition: all .4s linear;
+}
+
+#female .f_content:hover .f_react {
+    opacity: 1;
 }
 
 #female .f_react i {
@@ -704,6 +710,12 @@ body {
     position: absolute;
     top: 0;
     right: 0;
+    opacity: 0;
+    transition: all .4s linear;
+}
+
+#mobile .f_content:hover .f_react {
+    opacity: 1;
 }
 
 #mobile .f_react i {
@@ -982,6 +994,120 @@ body {
 
 
 /*----Footer CSS End----*/
+
+#footer {
+    background-color: #353535;
+    padding: 60px 0;
+}
+
+#footer .container {
+    color: #dddddd;
+}
+
+#footer .footer_content,
+#footer .footer_contact,
+#footer .footer_my_account,
+#footer .footer_sign {
+    width: 25%;
+}
+
+#footer .footer_content .foo_img img {
+    width: 40%;
+}
+
+#footer .footer_content .f_cont p {
+    font-size: 14px;
+    padding-right: 25px;
+    padding-top: 15px;
+    text-align: justify;
+}
+
+#footer .footer_contact h3 {
+    font-size: 16px;
+}
+
+#footer .footer_contact .fo_address p {
+    display: inline-block;
+    font-size: 14px;
+}
+
+#footer .footer_contact .fo_address {
+    padding-top: 15px;
+}
+
+#footer .footer_my_account h3 {
+    font-size: 16px;
+}
+
+#footer .footer_sign h3 {
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+#footer .footer_sign h4 {
+    padding: 15px 0;
+}
+
+#footer .subscribe input {
+    height: 25px;
+    background-color: transparent;
+    border-color: #dddddd;
+    padding-left: 20px;
+}
+
+#footer .fo_address i {
+    padding-right: 15px;
+}
+
+#footer .subscribe input[type='submit'] {
+    color: #fff;
+    padding: 0 15px;
+    transition: all .4s linear;
+}
+
+#footer .subscribe input[type='submit']:hover {
+    background-color: #de4644;
+    border-color: #de4644;
+}
+
+#footer .f_cont p {
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+#footer .social_group i {
+    padding: 8px 11px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+#footer .social_group i:nth-child(2) {
+    padding: 8px 8px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+#footer .social_group i:nth-child(3) {
+    padding: 8px 8px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+#footer .social_group i:nth-child(4) {
+    padding: 8px 9px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+#footer .social_group i:nth-child(5) {
+    padding: 8px 9px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-left: 5px;
+}
 
 
 /*----Footer CSS Start----*/
